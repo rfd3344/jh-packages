@@ -7,7 +7,7 @@ const method = require('./method');
 
 
 app.get('/', (req, res) => {
-	const out = method();
+	const out = method(req);
 	res.send(out);
 })
 
