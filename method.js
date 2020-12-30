@@ -3,8 +3,8 @@
 
 
 function method(req) {
-	const out = 'res'
-	return out
+	const out = 'res';
+	return out;
 }
 
 
